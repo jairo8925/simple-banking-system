@@ -8,14 +8,12 @@ import java.util.*;
 public class Main {
   public static void main(String[] args) {
     Controller controller = new Controller();
-    controller.startProgram(args[1]);
-    /*
+    // controller.startProgram(args[1]);
     if (args[0].equals("-filename") && args[1] != null) {
       controller.startProgram(args[1]);
     } else {
       System.out.println("No data file specified. Exiting program.");
     }
-     */
   }
 }
 
